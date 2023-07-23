@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+   margin: 0;
+   font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+   height: 100vh;
+}
+
+/*-----Header------*/
+#header{
+    position: sticky;
+    margin: 0;
+    padding: 0;
+
+}
+#header .logo{
+    margin-left: -90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1200px){
+    #header .logo{ 
+        margin-left: -10px;
+        margin-right: 10px;       
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+       
+    }
+}
+@media screen and (min-width:994px) {
+    #header .logo{
+        margin-left: 1px;
+        margin-top: 10px;
+    }
+    
+
+    
+}
+@media screen and (max-width:992px) {
+    #header .logo{
+        margin-left: 1px;
+        margin-top: 10px;
+    }
+    
+
+    
+}
+
+/* For Mobile Portrait View */
+@media (max-width: 576px){
+    #header .logo{ 
+        margin-left:10px;
+        margin-top: 10px;
+        
+       
+    }
+}
+
+#navbar{
+    
+
+}
+.has-search .form-control {
+    padding-left: 3.3rem;
+    padding-right: 438px;
+ }
+ .form-control{
+    display: block;
+    width: 90%;
+    border-radius: 4px;
+    border: none;
+ }
+ 
+
+ .has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 50px;
+    height: 2.5rem;
+    line-height: 2rem;
+    
+    pointer-events: none;
+    
+    padding-left: 1rem;
+  
+ }
+ .form-custum{
+    
+    
+    background: rgba(255, 255, 255, 0.721);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    margin-right: 293px;
+   
+    
+ }
+ @media (max-width: 1081px){
+   #navbar .search-bar{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 900px){
+     .signup-btn{
+         display: none;
+     }
+     
+ }
+
+ /********************************************************
+ -------------------------main body----------------------
+ ******************************************************/
+ .slider ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+ 
+  }
+  .inspir{
+    position: fixed;
+    z-index: 5;
+  }
+  .inspir h1{
+    font-size: 56px;
+    font-weight: 600;
+  }
+  .inspir h3{
+    font-size: 26px;
+font-weight: 600;
+line-height: 32px;
+margin-bottom: 50px;
+  }
+
+  @media (max-width: 900px) and (orientation: landscape), only screen and (max-width: 700px) and (orientation: portrait)
+   {.inspir h1{
+    line-height: 56px;
+    margin-bottom: 36px;
+   }
+    
+  }
+
+  @media (max-width: 700px) 
+  {.inspir h3{
+  display: none;
+  }
+   
+ }
+
+
+  .img-cap{
+    margin-top: -150px;
+  }
+  .slider{
+    width: 100%;
+    position: relative;
+  }
+  .slider li {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0;   
+    transition:  ease-in-out;
+ }
+ .slider li.active {
+    opacity: 1;
+ }
+ @media (max-width: 700px) 
+  {.desk-img {
+    display: none;
+  }  
+ }
+
+
+ /****************----------Footer-----------------
+ **********************************************************/
+ .footr{
+  padding: 10px 5px;
+ }
+ .list-group{
+  list-style: none;
+  
+ }
+
+
+ .footr a{
+   color: rgb(133, 132, 132);
+   font-size: 14px;
+   font-family: proxima-nova, sans-serif;
+   font-weight: 400;
+ }
+
+ 
+
+ @media (max-width: 1080px){
+  #top-row .top-item{
+     display: none;
+   }
+   #top-row{
+    margin: 0;
+    padding: 0;
+   }
+   #top-row .btn{
+    padding-left: 30px;
+    padding-right: 20px;
+
+   }
+ }
+ @media (max-width: 768px){
+  #top-row .top-item{
+     display: none;
+   }
+   #top-row{
+    margin-left: -25px;
+    padding: 0;
+    
+   }
+   #top-row .btn{
+    padding-left: 20px;
+    padding-right: 0px;
+
+   }
+ }
+
+ 
+
+ @media (min-width: 1081px){
+   #bottom-row .btn{
+       display: none;
+   }
+   
+}
+@media (max-width: 700px){
+  .foot-desktop-view{
+    display: none;
+  }
+  .foot-mobile-view{
+  padding-top:700px;
+  }
+  .inspir{
+    position: absolute;
+  }
+  
+  
+  
+  
+}
+
+@media (min-width:701px){
+  .foot-mobile-view{
+    display: none;
+  }
+}
+
+  .slider{
+    ;
+  }
+}
